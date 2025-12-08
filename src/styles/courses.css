@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.form input[type="text"],
+.form input[type="url"],
+.form select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #e6e7eb;
+  background: #fff;
+}
+
+/* botão primário */
+.primary {
+  padding: 10px;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* espaço entre cards */
+.card-course {
+  margin-bottom: 12px;
+}

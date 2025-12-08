@@ -1,0 +1,8 @@
+/* footer.css */
+.footer {
+  padding: 12px;
+  text-align: center;
+  font-size: 13px;
+  color: var(--muted);
+  background: transparent;
+}

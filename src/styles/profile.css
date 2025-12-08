@@ -1,0 +1,70 @@
+.profile-row {
+  display: flex;
+  gap: 12px;
+  /align-items: center;
+  margin-bottom: 24px;
+}
+
+/* Container do avatar */
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* A img do perfil */
+.profile-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: #f6f7fb;
+  transition: all 0.3s ease;
+}
+
+/* Lista de ursos */
+.profile-course {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.profile-course:last-child {
+  border-bottom: none;
+}
+
+/* Barra de progresso pequenina */
+.small-progress {
+  width: 80px;
+  height: 6px;
+  background: #eef2f6;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+.progress-bar-small {
+  height: 100%;
+  background: tomato;
+  border-radius: 10px;
+}
+
+/* --- DESKTOP (Telas maiores que 920px) --- */
+@media (min-width: 920px) {
+  .profile-row {
+    gap: 16px;
+  }
+
+  .profile-avatar {
+    width: 72px;
+    height: 72px;
+  }
+
+  .small-progress {
+    width: 120px;
+  }
+}

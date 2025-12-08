@@ -1,0 +1,64 @@
+/* Centraliza o painel e limita largura */
+.login-panel {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-panel h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form input:focus {
+  border-color: black;
+  outline: none;
+}
+
+.form button {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: --accent;
+  color: white;
+  transition: background 0.2s;
+}
+
+.form button:hover {
+  background-color: rgb(187, 60, 38);
+}
+
+/* Mensagem de error basiquinha */
+.alert {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #ffe6e6;
+  color: #d8000c;
+  border: 1px solid #cc0000;
+  border-radius: 6px;
+  font-size: 14px;
+  text-align: left;
+}

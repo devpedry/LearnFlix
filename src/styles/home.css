@@ -1,0 +1,8 @@
+/* home.css - pequenas regras específicas para a home */
+.card-panel h2 {
+  margin: 0;
+}
+.card-panel p {
+  margin-top: 8px;
+  line-height: 1.4;
+}
