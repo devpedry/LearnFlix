@@ -1,5 +1,5 @@
 
-LearnFlix - Plataforma Educacional (TP2)
+LearnFlix - Plataforma Educacional 
 
 Disciplina: Desenvolvimento Front-End com Frameworks
 
@@ -11,25 +11,6 @@ O LearnFlix é uma Single-Page Application (SPA) desenvolvida em React, focada n
  Como Executar o Projeto
 
 Este projeto foi desenvolvido no ambiente CodeSandbox
-
-Opção 1: Rodando Localmente (via ZIP)
-
-Caso tenha baixado o arquivo ZIP exportado do CodeSandbox:
-
-    Extraia os arquivos para uma pasta.
-
-    Abra o terminal na pasta raiz do projeto.
-
-    Execute npm install para instalar as dependências.
-
-    Execute npm start para iniciar o servidor de desenvolvimento.
-
-    Acesse http://localhost:3000 no navegador.
-
-Opção 2: No CodeSandbox
-
-Se estiver visualizando diretamente no ambiente online, o projeto deve iniciar automaticamente na janela de "Browser" à direita. Caso contrário, verifique se o script start está rodando.
-
 
 
  Tecnologias e Decisões Técnicas
@@ -46,7 +27,7 @@ Se estiver visualizando diretamente no ambiente online, o projeto deve iniciar a
 
     Mock Data: Uso de dados simulados (src/data/mockCourses.js) para popular a aplicação inicial.
 
- Histórias de Usuário (Atualizadas.. mesmo sem feedback da tp1)
+ Histórias de Usuário 
 
 
 US01 - Acesso e Autenticação
