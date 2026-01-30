@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Reservieren/LearnFlix/static/css/main.c4e6f85c.css",
-    "main.js": "/Reservieren/LearnFlix/static/js/main.d7cfa357.js",
+    "main.js": "/Reservieren/LearnFlix/static/js/main.4c9cabd5.js",
     "index.html": "/Reservieren/LearnFlix/index.html",
     "main.c4e6f85c.css.map": "/Reservieren/LearnFlix/static/css/main.c4e6f85c.css.map",
-    "main.d7cfa357.js.map": "/Reservieren/LearnFlix/static/js/main.d7cfa357.js.map"
+    "main.4c9cabd5.js.map": "/Reservieren/LearnFlix/static/js/main.4c9cabd5.js.map"
   },
   "entrypoints": [
     "static/css/main.c4e6f85c.css",
-    "static/js/main.d7cfa357.js"
+    "static/js/main.4c9cabd5.js"
   ]
 }
