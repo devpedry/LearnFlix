@@ -1,33 +1,38 @@
 
-LearnFlix - Plataforma Educacional 
+LearnFlix — Plataforma Educacional (React | Mobile-First SPA)
 
-Disciplina: Desenvolvimento Front-End com Frameworks
-
-
-Sobre o Projeto
-
-O LearnFlix é uma Single-Page Application (SPA) desenvolvida em React, focada na experiência mobile (Mobile-First). A aplicação permite que estudantes gerenciem materiais de estudo e acompanhem o seu progresso através de uma interface responsiva e intuitiva.
-
- Como Executar o Projeto
-
-Este projeto foi desenvolvido no ambiente CodeSandbox
+Projeto em desenvolvimento na disciplina **Desenvolvimento Front-End com Frameworks**.
 
 
- Tecnologias e Decisões Técnicas
+## Sobre o Projeto
 
-    ReactJS: Estrutura base da aplicação sem uso de bibliotecas de rotas externas (navegação via Estado/State).
+O LearnFlix é uma Single-Page Application (SPA) desenvolvida em React, com abordagem Mobile-First, voltada para a organização de materiais de estudo e acompanhamento de progresso do usuário.
 
-    CSS Puro (Mobile-First): Todo o estilo foi construído manualmente, sem frameworks (Bootstrap/Tailwind).
+## Demonstração Online
 
-        Estratégia: O CSS padrão define o layout para dispositivos móveis.
+A aplicação está disponível online via **GitHub Pages**:
 
-        Responsividade: Media Queries são usadas para adaptar o layout para Tablet e Desktop.
+🔗 https://devpedry.github.io/LearnFlix/
 
-    LocalStorage: Implementado para persistência de dados. O login e os novos cursos adicionados permanecem salvos mesmo após atualizar a página.
+> O projeto é uma Single-Page Application (SPA).  
+> Para resetar os dados salvos, limpe o Local Storage do navegador ou utilize uma janela anônima.
 
-    Mock Data: Uso de dados simulados (src/data/mockCourses.js) para popular a aplicação inicial.
 
- Histórias de Usuário 
+
+
+## Tecnologias e Decisões Técnicas
+
+As escolhas técnicas do projeto priorizam simplicidade, clareza de código e aderência aos requisitos da disciplina.
+
+
+- **ReactJS**: Estrutura base da aplicação sem uso de bibliotecas de rotas externas (navegação via estado).
+- **CSS Puro (Mobile-First)**: Estilização manual sem frameworks (Bootstrap/Tailwind).
+- Estratégia: layout padrão para dispositivos móveis.
+- Responsividade: Media Queries para Tablet e Desktop.
+- **LocalStorage**: Persistência de login e cursos adicionados pelo usuário.
+- **Mock Data**: Dados simulados (`src/data/mockCourses.js`) para popular a aplicação inicial.
+
+## Histórias de Usuário 
 
 
 US01 - Acesso e Autenticação
@@ -62,7 +67,7 @@ US05 - Perfil Personalizado
 
 
 
- Estrutura de Pastas
+ ## Estrutura de Pastas
 src/
 ├── components/     # Componentes reutilizáveis (Header, Footer, CardCourse)
 ├── data/           # Dados mockados (mockCourses.js)
@@ -71,7 +76,7 @@ src/
 ├── App.jsx         # Componente principal e roteamento manual
 └── index.js        # Ponto de entrada React
 
-Notas Adicionais
+## Notas Adicionais
 
     Persistência: Para "resetar" os dados e ver os mocks originais, limpe o "Application > Local Storage" do navegador ou use uma janela anônima.
 
